@@ -1,0 +1,27 @@
+{
+    "preset": "default",
+    "indent": {
+        "value": "    "
+    },
+    "lineBreak": {
+        "before": {
+            "BlockStatement": ">=1",
+            "DoWhileStatementOpeningBrace": 1,
+            "FunctionExpressionClosingBrace": 1
+        },
+        "after": {
+            "FunctionExpressionOpeningBrace": 1
+        }
+    },
+    "whiteSpace": {
+        "removeTrailing" : 0,
+        "before": {
+          "FunctionExpressionOpeningBrace": 1,
+          "FunctionExpressionClosingBrace": 1
+        },
+        "after": {
+          "FunctionExpressionOpeningBrace": 1,
+          "FunctionExpressionClosingBrace": -1
+        }
+    }
+}
