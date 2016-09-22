@@ -78,11 +78,22 @@ var config = {
         },
 
         /**
+         * Styles > Process
+         */
+        'process': {
+            'src': [
+                'resources/assets/styles/app.scss'
+            ],
+            'dest': 'public/styles'
+        },
+
+        /**
          * Styles > Build
          */
         'build': {
             'src': [
-                'resources/assets/styles/app.scss'
+                'bower_components/gridstack/dist/gridstack.css',
+                'public/styles/app.css'
             ],
             'dest': 'public/styles'
         }
